@@ -55,6 +55,8 @@ mamba install -c conda-forge jupyterlab-deck # or conda, if you must
 
 ---
 
+---
+
 ### Uninstalling
 
 ```bash
@@ -93,6 +95,8 @@ should appear in a vertically-scrollable stack.
 
 ---
 
+---
+
 #### Remote
 
 > In _Deck Mode_, navigate with:
@@ -108,6 +112,8 @@ should appear in a vertically-scrollable stack.
 
 ---
 
+---
+
 #### Revealing JupyterLab UX Features
 
 Many of the core JupyterLab UI elements are still available, but hidden by default.
@@ -115,6 +121,8 @@ Hover over their usual places to reveal them. These include:
 
 - the right and left sidebar
 - the _Notebook Toolbar_
+
+---
 
 ---
 
@@ -134,6 +142,8 @@ Some elements are _not_ visible, and cannot be revealed:
 > - use the [design tools](#design-tools) to customize the appearance of cells
 > - use the [slide layout tools](#slide-layout) to customize the position and size of
 >   cells
+
+---
 
 ---
 
@@ -166,6 +176,8 @@ Inspector_ sidebar][property-inspector] or the [design tools][design-tools].
 
 [deck-icon]:
   https://raw.githubusercontent.com/deathbeds/jupyterlab-deck/main/js/jupyterlab-deck/style/img/deck.svg
+
+---
 
 ---
 
@@ -210,6 +222,8 @@ The design tools offer lightweight buttons to:
 
 ---
 
+---
+
 ### Slide Layout
 
 > After opening the [design tools](#design-tools), click the _Show Layout_ button
@@ -223,15 +237,21 @@ The keyboard shortcuts and remote should still function as normal.
 
 ---
 
+---
+
 #### Moving Parts
 
 Click and drag a part overlay to move the part underneath.
 
 ---
 
+---
+
 #### Resizing Parts
 
 Click one of the _handles_ in the corners of the part overlay to resize a part.
+
+---
 
 ---
 
@@ -243,6 +263,8 @@ restore the part to the default layout.
 ---
 
 ## Configuration
+
+---
 
 ---
 
@@ -267,9 +289,13 @@ restore the part to the default layout.
 
 ---
 
+---
+
 ### Does it work with `notebook 6` aka classic?
 
 **No.** Use [RISE](https://github.com/damianavila/RISE/).
+
+---
 
 ---
 
@@ -282,11 +308,15 @@ should be installed.
 
 ---
 
+---
+
 ### Will it generate PowerPoint?
 
 **No.** This would be a fine third-party extension which could consume notebook metadata
 created by this extension, [jupyterlab-fonts], and `nbconvert`-compatible
 [slides](#slides).
+
+---
 
 ---
 
@@ -301,6 +331,8 @@ will work.
 For a full static viewing experience, try something like [JupyterLite].
 
 [jupyterlite]: https://github.com/jupyterlite/jupyterlite
+
+---
 
 ---
 
